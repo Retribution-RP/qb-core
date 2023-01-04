@@ -905,7 +905,19 @@ QBShared.Items = {
 ['gpshackingdevice'] 		= { ['name'] = 'gpshackingdevice', ['label'] = 'GPS hacking device', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'gpshackingdevice.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'If you wish to disable vehicle GPS systems.' },
 
 -- mt-clothingbag
-["clothing_bag"]  	= {["name"] = "clothing_bag", 			["label"] = "Clothing Bag", 								["weight"] = 100, 		["type"] = "item", 			["image"] = "clothing_bag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""}
+["clothing_bag"]  	= {["name"] = "clothing_bag", 			["label"] = "Clothing Bag", 								["weight"] = 100, 		["type"] = "item", 			["image"] = "clothing_bag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""},
+
+ -- m-Scrapyard
+["m_toolbox"] 				= {["name"] = "m_toolbox", 				["label"] = "Toolbox", 					["weight"] = 50, 	["type"] = "item", 	["image"] = "m_toolbox.png", 					["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
+["m_screwdriver"] 			= {["name"] = "m_screwdriver", 			["label"] = "Screwdriver", 				["weight"] = 50, 	["type"] = "item", 	["image"] = "'screwdriverset.png'", 			["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
+["m_driverdoor"]  			= {["name"] = "m_driverdoor",  			["label"] = "Driver Door",  			["weight"] = 25,  	["type"] = "item",  ["image"] = "m_driverdoor.png",  			["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_passengerdoor"]  		= {["name"] = "m_passengerdoor",  		["label"] = "Passenger Door",  			["weight"] = 25,  	["type"] = "item",  ["image"] = "m_passengerdoor.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_reardriverdoor"]  		= {["name"] = "m_reardriverdoor",  		["label"] = "Rear Driver Door",  		["weight"] = 25,  	["type"] = "item",  ["image"] = "m_reardriverdoor.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_rearpassengerdoor"]  	= {["name"] = "m_rearpassengerdoor",  	["label"] = "Rear Passenger Door",  	["weight"] = 25,  	["type"] = "item",  ["image"] = "m_rearpassengerdoor.png",  	["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_hood"]  				= {["name"] = "m_hood",  				["label"] = "Hood",  					["weight"] = 25,  	["type"] = "item",  ["image"] = "m_hood.png",  					["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_trunk"]  				= {["name"] = "m_trunk",  				["label"] = "Trunk",  					["weight"] = 25,  	["type"] = "item",  ["image"] = "m_trunk.png",  				["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["m_tyre"]  				= {["name"] = "m_tyre",  				["label"] = "Tyre",  					["weight"] = 25,  	["type"] = "item",  ["image"] = "m_tyre.png",  					["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+["warehouselockpick"]  		= {["name"] = "warehouselockpick",  	["label"] = "Warehouse Lockpick",  		["weight"] = 25,  	["type"] = "item",  ["image"] = "warehouselockpick.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 
 
 }
