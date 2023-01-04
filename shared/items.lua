@@ -909,7 +909,7 @@ QBShared.Items = {
 
  -- m-Scrapyard
 ["m_toolbox"] 				= {["name"] = "m_toolbox", 				["label"] = "Toolbox", 					["weight"] = 50, 	["type"] = "item", 	["image"] = "m_toolbox.png", 					["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
-["m_screwdriver"] 			= {["name"] = "m_screwdriver", 			["label"] = "Screwdriver", 				["weight"] = 50, 	["type"] = "item", 	["image"] = "'screwdriverset.png'", 			["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
+["m_screwdriver"] 			= {["name"] = "m_screwdriver", 			["label"] = "Screwdriver", 				["weight"] = 50, 	["type"] = "item", 	["image"] = "screwdriverset.png", 			["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
 ["m_driverdoor"]  			= {["name"] = "m_driverdoor",  			["label"] = "Driver Door",  			["weight"] = 25,  	["type"] = "item",  ["image"] = "m_driverdoor.png",  			["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 ["m_passengerdoor"]  		= {["name"] = "m_passengerdoor",  		["label"] = "Passenger Door",  			["weight"] = 25,  	["type"] = "item",  ["image"] = "m_passengerdoor.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 ["m_reardriverdoor"]  		= {["name"] = "m_reardriverdoor",  		["label"] = "Rear Driver Door",  		["weight"] = 25,  	["type"] = "item",  ["image"] = "m_reardriverdoor.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
