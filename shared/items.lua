@@ -905,7 +905,7 @@ QBShared.Items = {
 ['gpshackingdevice'] 		= { ['name'] = 'gpshackingdevice', ['label'] = 'GPS hacking device', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'gpshackingdevice.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'If you wish to disable vehicle GPS systems.' },
 
 -- mt-clothingbag
-["clothing_bag"]  	= {["name"] = "clothing_bag", 			["label"] = "Clothing Bag", 								["weight"] = 100, 		["type"] = "item", 			["image"] = "clothing_bag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""},
+["clothing_bag"]  			= {["name"] = "clothing_bag", 			["label"] = "Clothing Bag", 								["weight"] = 100, 		["type"] = "item", 			["image"] = "clothing_bag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""},
 
  -- m-Scrapyard
 ["m_toolbox"] 				= {["name"] = "m_toolbox", 				["label"] = "Toolbox", 					["weight"] = 50, 	["type"] = "item", 	["image"] = "m_toolbox.png", 					["unique"] = false,   	["useable"] = true,    		["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
@@ -919,5 +919,21 @@ QBShared.Items = {
 ["m_tyre"]  				= {["name"] = "m_tyre",  				["label"] = "Tyre",  					["weight"] = 25,  	["type"] = "item",  ["image"] = "m_tyre.png",  					["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 ["warehouselockpick"]  		= {["name"] = "warehouselockpick",  	["label"] = "Warehouse Lockpick",  		["weight"] = 25,  	["type"] = "item",  ["image"] = "warehouselockpick.png",  		["unique"] = false,     ["useable"] = true,      	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 
+    -- m-Lumberjack
+    ["runrepairkit"]        = {["name"] = "runrepairkit",       ["label"] = "Run Repairkit",        ["weight"] = 25,    ["type"] = "item",  ["image"] = "repairkit.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    
+    ["wood"]                = {["name"] = "wood",               ["label"] = "Wood",                 ["weight"] = 25,    ["type"] = "item",  ["image"] = "wood.png",                 ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["wood_packaged"]       = {["name"] = "wood_packaged",      ["label"] = "Wood Packaged",        ["weight"] = 25,    ["type"] = "item",  ["image"] = "wood_packaged.png",        ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["resin"]               = {["name"] = "resin",              ["label"] = "Resin",                ["weight"] = 25,    ["type"] = "item",  ["image"] = "resin.png",                ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["resin_packaged"]      = {["name"] = "resin_packaged",     ["label"] = "Resin Packaged",       ["weight"] = 25,    ["type"] = "item",  ["image"] = "resin_packaged.png",       ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["leaf"]                = {["name"] = "leaf",               ["label"] = "Leaf",                 ["weight"] = 25,    ["type"] = "item",  ["image"] = "leaf.png",                 ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    
+    ["axelevel1"]           = {["name"] = "axelevel1",          ["label"] = "Axe Level 1",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel1.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["axelevel2"]           = {["name"] = "axelevel2",          ["label"] = "Axe Level 2",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel2.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["axelevel3"]           = {["name"] = "axelevel3",          ["label"] = "Axe Level 3",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel3.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["axelevel4"]           = {["name"] = "axelevel4",          ["label"] = "Axe Level 4",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel4.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    ["axelevel5"]           = {["name"] = "axelevel5",          ["label"] = "Axe Level 5",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel5.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
+    
+    ["lumberjack_ticket"]   = {["name"] = "lumberjack_ticket",  ["label"] = "Lumberjack Ticket",    ["weight"] = 25,    ["type"] = "item",  ["image"] = "lumberjack_ticket.png",    ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
 
 }
