@@ -182,6 +182,20 @@ RegisterNetEvent('QBCore:ToggleDuty', function()
     TriggerClientEvent('QBCore:Client:SetDuty', src, Player.PlayerData.job.onduty)
 end)
 
+RegisterNetEvent('QBCore:Server:RemoveMoney', function(acount, amount)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    if not Player then return end
+    Player.Functions.RemoveMoney(acount, amount)
+end)
+
+RegisterNetEvent('QBCore:Server:AddMoney', function(acount, amount)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    if not Player then return end
+    Player.Functions.AddMoney(acount, amount)
+end)
+
 -- BaseEvents
 
 -- Vehicles
