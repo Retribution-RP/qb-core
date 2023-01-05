@@ -488,6 +488,34 @@ QBShared.Jobs = {
             },
         },
     },
+    ['uwu'] = {
+		label = 'UwU Cat Cafe',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Novice',
+                payment = 150
+            },
+			['1'] = {
+                name = 'Employee',
+                payment = 175
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 200
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 225
+            },
+			['4'] = {
+                name = 'Boss',
+				isboss = true,
+                payment = 250
+            },
+        },
+	},
     ["lostrepair"] = {
         label = "Lost Repair",
         defaultDuty = false,
