@@ -934,16 +934,8 @@ QBShared.Items = {
     ["axelevel5"]           = {["name"] = "axelevel5",          ["label"] = "Axe Level 5",          ["weight"] = 25,    ["type"] = "item",  ["image"] = "axelevel5.png",            ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
     
     ["lumberjack_ticket"]   = {["name"] = "lumberjack_ticket",  ["label"] = "Lumberjack Ticket",    ["weight"] = 25,    ["type"] = "item",  ["image"] = "lumberjack_ticket.png",    ["unique"] = false,     ["useable"] = true,         ["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = ""},
--- mt-UwUCafe
-['milk'] 				     	= {['name'] = 'milk', 			 		 	 			['label'] = 'Milk', 									['weight'] = 30, 		['type'] = 'item', 		['image'] = 'milk.png', 						['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'milk'},
-['vanillaextract'] 		     	= {['name'] = 'vanillaextract', 		 	 			['label'] = 'Vanilla Extract', 							['weight'] = 30, 		['type'] = 'item', 		['image'] = 'vanillaextract.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-['tomatosauce'] 		        = {['name'] = 'tomatosauce', 			 	['label'] = 'Tomato Sauce', 					['weight'] = 300, 		['type'] = 'item', 		['image'] = 'tomatosauce.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its tomato sauce'},
-['garlic'] 				 		= {['name'] = 'garlic', 			 	['label'] = 'Garlic', 						['weight'] = 30, 		['type'] = 'item', 		['image'] = 'garlic.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-['butter'] 				 		= {['name'] = 'butter', 			 	['label'] = 'Butter', 						['weight'] = 30, 		['type'] = 'item', 		['image'] = 'butter.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-['soysauce'] 				 	= {['name'] = 'soysauce', 			 	['label'] = 'Soy Sauce', 						['weight'] = 30, 		['type'] = 'item', 		['image'] = 'soysauce.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
-['cashews'] 					= {['name'] = 'cashews', ['label'] = 'Cashews', ['weight'] = 0, ['type'] = 'item', ['image'] = 'cashews.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = false, ['combinable'] = nil, ['description'] = ''},
 
- --Uwu
+	--Uwu
  ['uwububbleteablueberry'] 				= {['name'] = 'uwububbleteablueberry', 					['label'] = 'Berry Blue B-T',							['weight'] = 200, 		['type'] = 'item',		 		['image'] = 'uwububbleteablueberry.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true, 	['combinable'] = nil, 	['description'] = 'Lavender Tea with Blueberry Boba.'},
  ['uwububbletearose'] 					= {['name'] = 'uwububbletearose',						['label'] = 'Rosey B-T',								['weight'] = 200, 		['type'] = 'item',		 		['image'] = 'uwububbletearose.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true, 	['combinable'] = nil, 	['description'] = 'Sakura Rose Tea with Vanilla Boba.'},
  ['uwububbleteamint'] 					= {['name'] = 'uwububbleteamint',						['label'] = 'Minty B-T',								['weight'] = 200, 		['type'] = 'item',		 		['image'] = 'uwububbleteamint.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true, 	['combinable'] = nil, 	['description'] = 'Matcha Tea with Mint Boba.'},
