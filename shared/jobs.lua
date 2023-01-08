@@ -488,29 +488,38 @@ QBShared.Jobs = {
             },
         },
     },
-    ['uwu'] = {
-		label = 'UwU Cat Cafe',
+	['uwu'] = {
+		label = 'UwU Cafe',
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Novice',
-                payment = 150
+                name = 'Trainee',
+                payment = 100
             },
 			['1'] = {
-                name = 'Employee',
-                payment = 175
+                name = 'Server',
+                payment = 125
             },
 			['2'] = {
-                name = 'Experienced',
-                payment = 200
+                name = 'Chef',
+                payment = 150
             },
 			['3'] = {
-                name = 'Advanced',
-                payment = 225
+                name = 'Head Chef',
+                payment = 175
             },
 			['4'] = {
-                name = 'Boss',
+                name = 'Assistant Manager',
+                payment = 200
+            },
+			['5'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 225
+            },
+			['6'] = {
+                name = 'Owner',
 				isboss = true,
                 payment = 250
             },
