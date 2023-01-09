@@ -5608,14 +5608,14 @@ QBShared.Vehicles = {
         ['hash'] = `pursuit3`,
         ['shop'] = 'pdm',
     },
-    ['pursuit4'] = {
+    ['20tahoe'] = {
         ['name'] = 'Chevy Tahoe BCSO',
         ['brand'] = 'Chevy',
         ['model'] = 'Tahoe',
         ['price'] = 65000,
         ['category'] = 'sedans',
         ['categoryLabel'] = 'Sedans',
-        ['hash'] = `pursuit4`,
+        ['hash'] = `20tahoe`,
         ['shop'] = 'pdm',
     },
             ['gxrx7'] = {
