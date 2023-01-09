@@ -577,6 +577,64 @@ QBShared.Jobs = {
             },
         },
     },
+    ['sheriff'] = {
+		label = 'Sheriff',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 150
+            },
+			['1'] = {
+                name = 'Deputy I',
+                payment = 160
+            },
+            ['2'] = {
+                name = 'Deputy II',
+                payment = 175
+            },
+            ['3'] = {
+                name = 'Corporal',
+                payment = 190
+            },
+            ['4'] = {
+                name = 'Investigator',
+                payment = 200
+            },
+			['6'] = {
+                name = 'Sergant',
+                payment = 210
+            },
+			['7'] = {
+                name = 'lieuitenant',
+                payment = 220
+            },
+            ['8'] = {
+                name = 'captain',
+                payment = 240
+            },
+            ['9'] = {
+                name = 'chief deputy',
+                payment = 250
+            },
+            ['10'] = {
+                name = 'assistant sheriff',
+                payment = 265
+            },
+            ['11'] = {
+                name = 'undersheriff',
+				isboss = true,
+                payment = 275
+            },
+            ['12'] = {
+                name = 'Sheriff',
+				isboss = true,
+                payment = 300
+            },
+        },
+	},
+
     ['rea'] = {
         label = "Real estate agent",
         defaultDuty = true,
