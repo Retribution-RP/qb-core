@@ -1125,6 +1125,10 @@ QBShared.Items = {
 	['magic_mushroom']          = {['name'] = 'magic_mushroom',             ['label'] = 'Magic Mushroom',           ['weight'] = 20,       	 ['type'] = 'item',      ['image'] = 'magic_mushroom.png',        	['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,    ['combinable'] = nil,   ['description'] = 'A handful of magic mushrooms!'},	
 	['peyote_button']          	= {['name'] = 'peyote_button',             	['label'] = 'Peyote Button',           	['weight'] = 20,       	 ['type'] = 'item',      ['image'] = 'peyote_button.png',        	['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,    ['combinable'] = nil,   ['description'] = 'A handful of peyote buttons!'},
 
+		--<!>-- MONEY --<!>--
+	['cash'] 						= {['name'] = 'cash', 			 	  	  		['label'] = 'Cash', 					['weight'] = 1, 		['type'] = 'item', 		['image'] = 'cash.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Cash to be used within the BOII Community city!'},
+	['dirtycash'] 					= {['name'] = 'dirtycash', 			 	  	  	['label'] = 'Dirty Cash', 				['weight'] = 1, 		['type'] = 'item', 		['image'] = 'dirtycash.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Dirty cash? You should find someone to clean this for you!'},
+
 	
 
 }
