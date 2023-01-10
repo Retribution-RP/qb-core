@@ -577,8 +577,9 @@ QBShared.Jobs = {
             },
         },
     },
-    ['sheriff'] = {
+    ['bcso'] = {
 		label = 'Sheriff',
+            type = "leo",
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
