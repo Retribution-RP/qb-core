@@ -635,7 +635,34 @@ QBShared.Jobs = {
             },
         },
 	},
-
+	['rapid'] = {
+		label = 'Rapid Recovery',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Rookie',
+                payment = 150
+            },
+			['1'] = {
+                name = 'mechanic',
+                payment = 175
+            },
+			['2'] = {
+                name = 'mechanic II',
+                payment = 200
+            },
+			['3'] = {
+                name = 'Manager',
+                payment = 225
+            },
+			['4'] = {
+                name = 'Owner',
+				isboss = true,
+                payment = 250
+            },
+        },
+	},
     ['rea'] = {
         label = "Real estate agent",
         defaultDuty = true,
