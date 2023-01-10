@@ -636,7 +636,7 @@ QBShared.Jobs = {
         },
 	},
 	['rapid'] = {
-		label = 'Rapid Recovery',
+		label = 'Rapid Recovery/FlyWheels',
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
