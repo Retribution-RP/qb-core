@@ -5638,6 +5638,16 @@ QBShared.Vehicles = {
         ['hash'] = `hs2000`,
         ['shop'] = 'pdm',
     },
+    ['16ramambo'] = {
+        ['name'] = 'RAM',
+        ['brand'] = 'ambulance',
+        ['model'] = 'ram ambo',
+        ['price'] = 200000,
+        ['category'] = 'sedans',
+        ['categoryLabel'] = 'Sedans',
+        ['hash'] = `16ramambo`,
+        ['shop'] = 'pdm',
+    },
             ['srtday20'] = {
         ['name'] = 'Charger Daytona',
         ['brand'] = 'Dodge',
